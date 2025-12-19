@@ -1,7 +1,7 @@
 package level1;
 
 import java.util.Scanner;
-public class UserInputkmtoMiles2 {
+public class UserInputKmToMiles2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double km = input.nextDouble();

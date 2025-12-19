@@ -1,5 +1,5 @@
 package level1;
-public class KmtoMiles {
+public class KmToMiles {
     public static void main(String[] args) {
         float distance = 10.8f;
         float miles = distance*0.62f;

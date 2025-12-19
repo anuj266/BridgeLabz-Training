@@ -1,3 +1,5 @@
+package level1;
+
 public class Discount {
     public static void main(String[] args) {
         int fees = 125000;
