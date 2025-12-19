@@ -1,8 +1,8 @@
-package Level2;
+package level2;
 
 import java.util.Scanner;
 
-public class AreaofTriangle {
+public class AreaOfTriangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         float base = input.nextFloat();

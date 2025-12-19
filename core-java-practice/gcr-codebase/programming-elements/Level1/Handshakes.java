@@ -1,8 +1,7 @@
-package Level1;
 
 import java.util.Scanner;
 
-public class Handshakes {
+public class HandShakes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numberOfHandshakes = sc.nextInt();

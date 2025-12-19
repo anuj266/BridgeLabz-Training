@@ -1,4 +1,4 @@
-package Level1;
+package level1;
 public class KmtoMiles {
     public static void main(String[] args) {
         float distance = 10.8f;

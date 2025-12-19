@@ -1,4 +1,4 @@
-package Level1;
+package level1;
 public class Volume {
     public static void main(String[] args) {
         int radius1 = 6378;

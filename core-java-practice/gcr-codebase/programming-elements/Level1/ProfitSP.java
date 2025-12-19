@@ -1,3 +1,4 @@
+package level1;
 public class ProfitSP {
     public static void main(String[] args) {
         int cp = 129;

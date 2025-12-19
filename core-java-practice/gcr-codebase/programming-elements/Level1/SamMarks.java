@@ -1,3 +1,4 @@
+package level1;
 public class SamMarks {
     public static void main(String[] args) {
         int maths = 94;
