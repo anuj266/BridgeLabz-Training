@@ -1,4 +1,4 @@
-// Program to count down the number from the user input value to 1 using a for loop for a rocket launch
+//program to count down the number from the user input value to 1 using a for loop for a rocket launch
 package control_flow;
 import java.util.Scanner;
 public class CountDownFor {
