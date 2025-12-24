@@ -11,41 +11,25 @@ by week with thematic headings, detailing the work done on each date and day.
 ### 📂 Current Repository Structure
 
 
-
+```
 BridgeLabz-Training/
-
 |
-
 ├── core-java-practice/
-
 |   |
-
 |   ├── gcr-codebase/
-
 |   |   ├── arrays/
-
 |   |   ├── control-flow/
-
 |   |   ├── programming-elements/
-
 |   |   └── strings/
-
 |   |
-
 |   ├── leet-code-codebase/
-
 |   |   └── leetcode-questions/
-
 |   | 
-
 |   └── scenario-based/
-
 |       └── scenario-based-questions/
-
 |
-
 └── README.md
-
+```
 
 
 # 1  Week 1: Getting Started with Java and it's Basics
