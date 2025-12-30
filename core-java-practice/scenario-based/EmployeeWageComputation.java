@@ -1,88 +1,44 @@
-package scenrio_based;
-import java.util.Random;
-import java.util.Scanner;
-
 public class EmployeeWageComputation {
-  public static void main(String[] args) {
 
-    Scanner sc = new Scanner(System.in);
+    public static final int IS_PART_TIME = 1;
+    public static final int IS_FULL_TIME = 2;
+    public static final int EMP_RATE_PER_HOUR = 20;
+    public static final int NUM_OF_WORKING_DAYS = 2;
+    public static final int MAX_HRS_IN_MONTH = 10;
 
-    // Welcome message
-    System.out.println("Welcome to Employee Wage Computation Program on Master Branch\n");
+    public static void main(String[] args) {
 
-    // UC 1: Check Employee Attendance
-    String[] attendance = { "Present", "Absent" };
-    Random random = new Random();
-    String status = attendance[random.nextInt(attendance.length)];
+        // Variables
+        int empHrs = 0;
+        int totalEmpHrs = 0;
+        int totalWorkingDays = 0;
 
-    System.out.println("Employee Attendance Check...");
-    System.out.println("Employee is " + status);
+        // Computation
+        while (totalEmpHrs <= MAX_HRS_IN_MONTH &&
+            totalWorkingDays < NUM_OF_WORKING_DAYS) {
 
-    int wageRate = 20;
-    int dailyWage = 0;
+            totalWorkingDays++;
 
-    // UC 4: Switch Case for Employee Type
-    System.out.print("Enter the type of employee (part or full): ");
-    String typeOfEmployee = sc.next();
+            int empCheck = (int) Math.floor(Math.random() * 10) % 3;
 
-    if (status.equals("Absent")) {
-      dailyWage = 0;
-      System.out.println("Employee is absent. Daily wage is ₹0");
-    } else {
-      switch (typeOfEmployee) {
+            switch (empCheck) {
+                case IS_PART_TIME:
+                    empHrs = 4;
+                    break;
 
-        case "part":
-          int partTimeHr = 8;
-          dailyWage = wageRate * partTimeHr;
-          System.out.println("Employee Type: Part Time");
-          System.out.println("Daily Employee Wage: ₹" + dailyWage);
-          break;
+                case IS_FULL_TIME:
+                    empHrs = 8;
+                    break;
 
-        case "full":
-          int fullTimeHr = 8;
-          dailyWage = wageRate * fullTimeHr;
-          System.out.println("Employee Type: Full Time");
-          System.out.println("Daily Employee Wage: ₹" + dailyWage);
-          break;
+                default:
+                    empHrs = 0;
+            }
 
-        default:
-          System.out.println("Invalid employee type!");
-          sc.close();
-          return;
-      }
+            totalEmpHrs += empHrs;
+            System.out.println("Day#: " + totalWorkingDays + " Emp Hr: " + empHrs);
+        }
+
+        int totalEmpWage = totalEmpHrs * EMP_RATE_PER_HOUR;
+        System.out.println("Total Emp Wage: " + totalEmpWage);
     }
-
-    // UC 5: Monthly Wage Calculation
-    int workingDays = 20;
-    System.out.println("\nTotal Working Days in a Month: " + workingDays);
-    System.out.println("Monthly Employee Wage: ₹" + (dailyWage * workingDays));
-
-    // UC 6: Calculate wages till condition is reached
-    System.out.println("\nMaximum Working Days: 20");
-    System.out.println("Maximum Working Hours: 100");
-
-    int totalHours = 0;
-    int totalDays = 0;
-    int totalWage = 0;
-
-    while (totalHours < 100 && totalDays < 20) {
-      totalDays++;
-
-      int workHours = random.nextBoolean() ? 8 : 4; // full or part day
-      totalHours += workHours;
-      totalWage += workHours * wageRate;
-
-      System.out.println(
-          "Day " + totalDays + " → Hours Worked: " + workHours +
-              " → Total Hours: " + totalHours);
-    }
-
-    System.out.println("\nCondition Reached!");
-    System.out.println("Total Working Days: " + totalDays);
-    System.out.println("Total Working Hours: " + totalHours);
-    System.out.println("Total Employee Wage: ₹" + totalWage);
-
-    System.out.println("\nThank You");
-    sc.close();
-  }
 }
