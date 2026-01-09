@@ -172,10 +172,10 @@ public class InventoryManagementSystem {
 	}
 
 	public static void main(String[] args) {
-		ItemNode Head = new ItemNode(3 , "Bidi" , 3 , 12.0);
-		Head = addAtStart(Head , 1 , "cigratte" , 5 , 20.0);
-		Head = addAtLast(Head , 4 , "Bux soap" , 5 , 60.0);
-		Head = addAtSpecificPosition(Head , 2 , "Ghadi (Pehle istemaal kre fir vishwaas kre)" , 6 , 30.0 , 2);
+		ItemNode Head = new ItemNode(3 , "Toothbrush" , 3 , 12.0);
+		Head = addAtStart(Head , 1 , "Rusk" , 5 , 20.0);
+		Head = addAtLast(Head , 4 , "Watches" , 5 , 60.0);
+		Head = addAtSpecificPosition(Head , 2 , "Toys" , 6 , 30.0 , 2);
 		Head = delete(Head , 3);
 		Head = update(Head , 4 , 7 );
 		search(Head , 4);
