@@ -17,73 +17,39 @@
 # &nbsp;    BridgeLabz-Training/
 
 # &nbsp;    │
-
 # &nbsp;    ├── core-java-practice/
-
 # &nbsp;    │   │
-
 # &nbsp;    │   ├── gcr-codebase/
-
 # &nbsp;    │   │   ├── programming-elements/
-
 # &nbsp;    │   │   └── control-flow/
-
 # &nbsp;    │   │
-
 # &nbsp;    │   ├── leet-code-codebase/
-
 # &nbsp;    │   │
-
 # &nbsp;    │   └── scenario-based/
-
 # &nbsp;    │
-
 # &nbsp;    ├── oops-practice/
-
 # &nbsp;    │   │
-
 # &nbsp;    │   ├── gcr-codebase/
-
 # &nbsp;    │   │   ├── class-and-object/
-
 # &nbsp;    │   │   ├── java-constructors/
-
 # &nbsp;    |   |   ├── java-keywords/
-
 # &nbsp;    |   |   ├── object-modeling/
-
 # &nbsp;    |   |   ├── inheritance/
-
 # &nbsp;    |   |   ├── oops-pillars/
-
 # &nbsp;    |   |
-
 # &nbsp;    │   ├── leet-code-codebase/
-
 # &nbsp;    |   |
-
 # &nbsp;    │   └── scenario-based/
-
 # &nbsp;    |
-
 # &nbsp;    |
-
 # &nbsp;    ├── dsa-practice/
-
 # &nbsp;    │   ├── gcr-codebase/
-
 # &nbsp;    │   │   ├── linked-list/
-
 # &nbsp;    |   |
-
 # &nbsp;    |   |
-
 # &nbsp;    ├── reviews/
-
 # &nbsp;    |
-
 # &nbsp;    +-- README.md
-
 # 
 
 # \## Weekly Workflow \& Progress :-
