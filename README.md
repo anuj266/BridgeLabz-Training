@@ -1,330 +1,265 @@
-# \## BridgeLabz Training
-
-# 
-
-# This repository contains all the tasks, practice programs, scenario-based problems, and problem-solving work completed as part of \*\*BridgeLabz Training\*\* and organized week-wise, day-wise and topic-wise while following standard GitHub workflows.
-
-# 
-
-# \## Repository Structure :-
-
-# 
-
-# ---
-
-# 
-
-# &nbsp;    BridgeLabz-Training/
-
-# &nbsp;    │
-# &nbsp;    ├── core-java-practice/
-# &nbsp;    │   │
-# &nbsp;    │   ├── gcr-codebase/
-# &nbsp;    │   │   ├── programming-elements/
-# &nbsp;    │   │   └── control-flow/
-# &nbsp;    │   │
-# &nbsp;    │   ├── leet-code-codebase/
-# &nbsp;    │   │
-# &nbsp;    │   └── scenario-based/
-# &nbsp;    │
-# &nbsp;    ├── oops-practice/
-# &nbsp;    │   │
-# &nbsp;    │   ├── gcr-codebase/
-# &nbsp;    │   │   ├── class-and-object/
-# &nbsp;    │   │   ├── java-constructors/
-# &nbsp;    |   |   ├── java-keywords/
-# &nbsp;    |   |   ├── object-modeling/
-# &nbsp;    |   |   ├── inheritance/
-# &nbsp;    |   |   ├── oops-pillars/
-# &nbsp;    |   |
-# &nbsp;    │   ├── leet-code-codebase/
-# &nbsp;    |   |
-# &nbsp;    │   └── scenario-based/
-# &nbsp;    |
-# &nbsp;    |
-# &nbsp;    ├── dsa-practice/
-# &nbsp;    │   ├── gcr-codebase/
-# &nbsp;    │   │   ├── linked-list/
-# &nbsp;    |   |
-# &nbsp;    |   |
-# &nbsp;    ├── reviews/
-# &nbsp;    |
-# &nbsp;    +-- README.md
-# 
-
-# \## Weekly Workflow \& Progress :-
-
-# 
-
-# ---
-
-# 
-
-# \## Week 1: Java Basics, Control Flow \& Arrays
-
-# 
-
-# ---
-
-# 
-
-# \- \*\*16-Dec-2025 (Tuesday)\*\* :-
-
-# 
-
-# &nbsp; - Introduction to BridgeLabz training process and guidelines
-
-# &nbsp; - Installed JDK
-
-# &nbsp; - Installed Eclipse IDE
-
-# 
-
-# \- \*\*17-Dec-2025 (Wednesday)\*\* :-
-
-# 
-
-# &nbsp; - Installed and configured Git \& GitHub
-
-# &nbsp; - Solved 5 Java problems
-
-# &nbsp; - Pushed solutions to the leet-code-codebase
-
-# 
-
-# \- \*\*18-Dec-2025 (Thursday)\*\* :-
-
-# 
-
-# &nbsp; - Studied Java Basics documentation
-
-# &nbsp; - Solved all level practice problems.
-
-# 
-
-# \- \*\*19-Dec-2025 (Friday)\*\* :-
-
-# 
-
-# &nbsp; - Studied Control Flow documentation
-
-# &nbsp; - Solved and submitted Control Flow practice problems
-
-# &nbsp; - Enhanced logical thinking and problem-solving
-
-# 
-
-# \- \*\*20-Dec-2025 (Saturday)\*\* :-
-
-# &nbsp; - Studied Arrays documentation
-
-# &nbsp; - Solved all level practice problems related to Arrays
-
-# &nbsp; - Solved practice problems based on single and multi-dimensional arrays
-
-# &nbsp; - Solved 2 Scenario Based questions
-
-# 
-
-# \## Week 2: Strings
-
-# 
-
-# ---
-
-# 
-
-# \- \*\*22-Dec-2025 (Monday)\*\* :-
-
-# 
-
-# &nbsp; - Studied String documentation
-
-# &nbsp; - Solved Level 1 and Level 2 String practice problems
-
-# &nbsp; - Enhanced understanding of string manipulation and error handling
-
-# 
-
-# \- \*\*23-Dec-2025 (Tuesday)\*\* :-
-
-# 
-
-# &nbsp; - Solved Level 3 String practice problems
-
-# &nbsp; - Solved a scenario based question on \_Election Booth Manager\_
-
-# &nbsp; - Strengthened logical thinking through conditional and iterative problem-solving
-
-# 
-
-# \- \*\*24-Dec-2025 (Wednesday)\*\* :-
-
-# 
-
-# &nbsp; - Solved String Methods – Level 1 and Level 2 practice problems
-
-# &nbsp; - Solved a Scenario based questions on \_Smart Metro Card\_
-
-# 
-
-# \- \*\*26-Dec-2025 (Friday)\*\* :-
-
-# &nbsp; - Solved String Methods Level 3 and Uploaded it
-
-# &nbsp; - Solved Extra Questions on String Methods
-
-# &nbsp; - Solved 2 scenario based questions
-
-# 
-
-# \## Week 3: OOPS Basics
-
-# 
-
-# ---
-
-# 
-
-# \- \*\*29-Dec-2025 (Monday)\*\* :-
-
-# 
-
-# &nbsp; - Completed Built-In Method Extra questions
-
-# &nbsp; - Solved 4 Scenario based questions
-
-# &nbsp; - Solved \_Employee Wage Computation\_ Scenario based question
-
-# 
-
-# \- \*\*30-Dec-2025 (Tuesday)\*\* :-
-
-# 
-
-# &nbsp; - Solved \_Line Comparison\_ Scenario based question
-
-# &nbsp; - Solved \_Snake And Ladder\_ Scenario based question
-
-# &nbsp; - Studied Oops Java Material sheet and Git Cheat Sheet
-
-# 
-
-# \- \*\*31-Dec-2025 (Wednesday) :-\*\*
-
-# 
-
-# &nbsp; - Solved java \_Class And Object\_ assignment
-
-# &nbsp; - Solved \_Java Constructor\_ and \_Access Modifier\_ assignment
-
-# 
-
-# \- \*\*01-Jan-2026 (Thursday) :-\*\*
-
-# 
-
-# &nbsp; - Solved and submitted \_Java Keywords\_ assignment
-
-# &nbsp; - Solved \_Sentence Formatter\_ Scenario based question
-
-# &nbsp; - Solved \_Paragraph Analyzer\_ Scennario based question
-
-# 
-
-# \- \*\*02-Jan-2026 (Friday) :-\*\*
-
-# 
-
-# &nbsp; - Studied and created \_Object Modeling\_ diagrams
-
-# &nbsp; - Solved \_Temperature Analyzer\_ scenario based question
-
-# &nbsp; - Solved \_program to manage Student Scores\_ Scenario based question
-
-# 
-
-# \- \*\*03-Jan-2026 (Saturday) :-\*\*
-
-# &nbsp; - Studied material and Completed \_Inheritance\_ assignment
-
-# &nbsp; - Solved \_Library Management System\_ scenario based question
-
-# &nbsp; - Solved \_EduQuiz\_ Scenario based question
-
-# 
-
-# \## Week 4: Advance OOPS Concept And DSA
-
-# 
-
-# ---
-
-# 
-
-# \- \*\*05-Jan-2026 (Monday) :-\*\*
-
-# 
-
-# &nbsp; - Studied the module and Solved some problems on \_oops-pillars\_
-
-# &nbsp; - Solved \_Bank Account Manager\_ Scenario based question
-
-# &nbsp; - Solved \_Utility class for Mathematical operations\_ Scenario based question
-
-# 
-
-# \- \*\*06-Jan-2026 (Tuesday) :-\*\*
-
-# 
-
-# &nbsp; - Solved and Submitted questions on \_oops-concept\_
-
-# &nbsp; - Solved Scenario based questions like \_Phone Contact Organizer\_ and \_Student Report Generator\_
-
-# &nbsp; - Solved Scenario based question of \_Cafeteria Menu App\_ and \_Bank Account Manager\_
-
-# 
-
-# \- \*\*07-Jan-2026 (Wednesday) :-\*\*
-
-# 
-
-# &nbsp; - Studied \_Data Structure Introduction and LinkedList\_ material
-
-# &nbsp; - Studied \_Approach towards Story Based Problem (Scenario)\_ sheet
-
-# &nbsp; - Solved \_Cab Booking / Ride Management System\_ scenario based question
-
-# &nbsp; - Solved \_Online Banking System\_ scenario based question
-
-# 
-
-# \- \*\*08-Jan-2026 (Thursday) :-\*\*
-
-# 
-
-# &nbsp; - Solved some problems related to \_linked list\_
-
-# &nbsp; - Solved a scenario based question on \_Invoice Generator for Freelancers\_
-
-# 
-
-# \- \*\*09-Jan-2026 (Friday) :-\*\*
-
-# 
-
-# &nbsp; - Completed remaining problems related to \_linked list\_
-
-# 
-
-# \- \*\*10-Jan-2026 (Saturday) :-\*\*
-
-# &nbsp; - Completed remaining Scneario Based Problems
-
-# &nbsp; - Solved scenario based question on \_Hospital Patient Management System\_
-
-# &nbsp; - Solved scenario based question on \_Vehicle Rental Application\_
-
-# &nbsp; - Solved scenario based question on \_Flight Booking System\_
-
+#  Daily Progress Log – BridgeLabz Training
+
+This repository documents my **BridgeLabz Training journey**, tracked **week-by-week and day-by-day**.  
+It includes daily progress notes, practice programs, and problem-solving activities.
+
+This README will be **updated regularly** as new folders, topics, and weeks are added.
+
+---
+## 📂 Current Repository Structure
+
+```
+BridgeLabz-Training/
+|
+├── core-java-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── arrays/
+|   |   ├── control-flow/
+|   |   ├── extras/
+|   |   ├── methods/
+|   |   ├── programming-elements/
+|   |   └── strings/
+|   |
+|   ├── leet-code-codebase/
+|   |   └── leetcode-questions/
+|   | 
+|   └── scenario-based/
+|       ├── BusRouteDistanceTracker.java
+|       ├── CoffeeCounterChronicles.java
+|       ├── DigitalWatch.java
+|       ├── ElectionBoothManager.java
+|       ├── EmployeeWageComputation.java
+|       ├── FestivalLuckyDraw.java
+|       ├── LineComparisionComputation.java
+|       ├── MayaBMITracker.java
+|       ├── MetroFareDeduction.java
+|       ├── MovieTicketBooking.java
+|       ├── RohanLibraryFineCalculator.java
+|       ├── SandeepFitnessTracker.java
+|       └── SnakesAndLadders.java
+|
+├── oops-practice
+|   |
+|   ├── gcr-codebase/
+|   |   ├── class-and-object
+|   |   ├── constructors
+|   |   ├── encapsulation-polymorphism
+|   |   ├── inheritance
+|   |   ├── keywords-instanceof
+|   |   └── object-oriented-design
+|   |
+|   ├── leet-code-codebase
+|   |   └── leetcode-questions/
+|   |
+|   └── scenario-based
+|       ├── digital_wallet_system
+|       ├── ecommerce_management_system
+|       ├── flight_booking_system
+|       ├── hospital_management_system
+|       ├── hotel_reservation_system
+|       ├── inventory_management_system
+|       ├── online_examinantion_system
+|       ├── online_voting_system
+|       ├── student_course_registration_system
+|       ├── vehicle_rental
+|       ├── BankAccountManager.java
+|       ├── CabBooking.java
+|       ├── CafeteriaMenuApp.java
+|       ├── EduQuiz.java
+|       ├── GeneratorForFreelancers.java
+|       ├── LibraryManagementSystem.java
+|       ├── MathematicalOperation.java
+|       ├── OnlineBankingSystem.java
+|       ├── OnlineQuizPlatform.java
+|       ├── PhoneApp.java
+|       ├── SentenceFormatter.java
+|       ├── SentenceWordCount.java
+|       ├── StudentReportGenerator.java
+|       ├── StudentScore.java
+|       ├── StudentScoreAnalyzer.java
+|       └── TemperatureAnalyzer.java
+|
+├── dsa-practice
+|   |
+|   └── gcr-codebase
+|       ├── linkedlist
+|       ├── searching
+|       ├── sorting
+|       └── stack_queue_hashmap 
+|
+├── review
+|   ├── ArraySort.java
+|   └── ReverseString.java
+|
+└── README.md
+```
+---
+
+## 📅 Week 1 Progress
+
+###  16-Dec-2025 (Tuesday)
+- Created the **BridgeLabz-Training** repository  
+- Set up the initial **folder structure**
+
+###  17-Dec-2025 (Wednesday)
+- Created the programming-elements folder inside the gcr-codebase.
+- Implemented basic Java programs.
+
+###  18-Dec-2025 (Thursday)
+- Studied Basic Java documentation.
+- Solved and submitted:
+  - Level 1 problems  
+  - Level 2 problems  
+  from Programming Elements
+
+###  19-Dec-2025 (Friday)
+- Studied Control Flow documentation.
+- Solved and submitted Control Flow practice problems.
+
+###  20-Dec-2025 (Saturday)
+- Studied Arrays documentation.
+- Solved and Submitted Arrays problems.
+- Solved Scenario Based Problems 
+  - The Coffee Counter Chronicles
+  - Maya’s BMI Fitness Tracker
+---
+
+## 📅 Week 2 Progress
+
+###  22-Dec-2025 (Monday)
+- Studied String Documentation.
+- Solved String problems.
+
+###  23-Dec-2025 (Tuesday)
+- Solved and Submitted String Problems.
+- Studied SDLC Documentation.
+- Solved Scenario based problems.
+  - Election Booth Manager ️
+  - Metro Smart Card Fare Deduction
+
+### 24-Dec-2025 (Wednesday)
+- Studied Methods documentation.
+- Solved Methods Level 1 & 2 Problems.
+
+### 26-Dec-2025 (Friday)
+- Submitted Methods Problems.
+- Studied Built-in Functions and Date and Time documentation.
+- Solved Scenario based problems.
+  - Bus Route Distance Tracker
+  - Festival Lucky Draw 
+
+### 27-Dec-2025 (Saturday)
+- Solve and Submitted Extras String Problems.
+---
+
+## 📅 Week 3 Progress
+
+### 29-Dec-2025 (Monday)
+- Solved and Submitted extras Built-in functions assignment.
+- Studied String Handling Documentation.
+- Solved Scenario Based Problems
+  - Sandeep’s Fitness Challenge Tracker
+  - Movie Ticket Booking App
+  - Rohan’s Library Reminder App
+  - Digital Watch Simulation
+
+### 30-Dec-2025 (Tuesday)
+- Solved Employee Wage Computation Problem
+- Solved Line Comparision Problem
+- Solved Snake And Ladder Problem
+- Studied Object Oriented Fundamental Documentation.
+
+### 31-Dec-2025 (Wednesday)
+- Solve and Submitted Class and Object Problems.
+- Studied Java Constructors Documentation
+
+### 1-Jan-2026 (Thursday)
+- Solve and Submitted Constructors Assignment.
+- Studied this, static, final keyword documentation.
+- Solved Scenario Based Problems:
+  - Sentence Formatter
+  - Sentence Word Count
+
+### 2-Jan-2026 (Friday)
+- Solve and Submitted this, static, final keyword Problems.
+- Studied Object Modelling, Class Diagram Documentation.
+- Solve and Submitted Object Modelling, Class Diagram Problems.
+- Solved Scenario Based Problems:
+  - Temperature Analyzer
+  - Score Analyzer
+
+### 3-Jan-2026 (Saturday)
+- Studied amd Solve Inheritance Documnetation
+- Solved Scenario Based Problems:
+  - Library Management System
+  - EduQuiz – Student Quiz Grader
+  - Bank Account Manager
+  - Mathematical Operations
+---
+
+## 📅 Week 4 Progress
+
+### 5-Jan-2026 (Monday)
+- Studied and Solved Encapsulation Interface Problems.
+- Solved Scenario Based Problems:  
+  - Invoice Generator for Freelancers
+  - Cafeteria Menu App
+  - Student Score Analyzer
+
+### 6-Jan-2026 (Tuesday)
+-  Solved and Submitted Scenario Based Problems: 
+    - Phone Contact Organizer
+    - Online Quiz Platform – Result Processor
+    - Student Report Generator
+
+### 7-Jan-2026 (Wednesday)
+- Studied Data Structures Documentation
+- Solved Scenario Based Problems: 
+    - Cab Booking System
+    - Online Banking System
+
+### 8-Jan-2026 (Thursday)
+- Solve and Submitted Data Structures.
+
+### 9-Jan-2026 (Friday)
+- Studied Stack, Queue, Hashmap documentation
+- Solve Scenario Based Problems: 
+    - Hospital Patient Management System
+    - Vehicle Rental Application
+    - Flight Booking System
+---
+
+## 📅 Week 5 Progress
+
+### 12-Jan-2026 (Monday)
+- Solved and Submitted Scenario Based Problems: 
+    - E-Commerce Order Management System
+    - Student Course Registration System
+    - Inventory Management System
+
+### 13-Jan-2026 (Tuesday)
+- Solved Scenario Based Problems:
+  - Hotel Reservation System
+  - Online Voting System
+  - Digital Wallet System
+
+### 14-Jan-2026 (Wednesday)
+- Submitted Stack, Queue, Hashmap Problems.
+- Studied Sorting Algorithms Documentation.
+
+### 15-Jan-2026 (Thursday)
+- Learn Sorting and searching algo
+- Solved scenario based question on Bubble Sort
+- Solved scenario based question on Insertion Sort
+
+### 16-Jan-2026 (Friday)
+- Solved scenario based question on Quick Sort
+- Solved scenario based question on Selection Sort
+- Solved scenario based question on Counting Sort
+
+### 17-Jan-2026 (Saturday)
+- Studied StringBuilder, StringBuffer, FileReader, InputStreamReader,Linear Search and Binary Search
+- Solved problems related StringBuilder, StringBuffer, FileReader, InputStreamReader,Linear Search and Binary Search
+
+## 📅 Week 6 Progress
