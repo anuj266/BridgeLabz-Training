@@ -1,40 +1,62 @@
-//package scenrio;
-//
-//import java.util.Scanner;
-//
-//public class LexicalTwist {
-//	static boolean checkReverse(String str1 , String str2) {
-//		if (str1.length() != str2.length()) {
-//            return false;
-//        }
-//        int j = str2.length() - 1;
-//        for (int i = 0; i < str1.length(); i++) {
-//            if (str1.charAt(i) != str2.charAt(j)) {
-//                return false;
-//            }
-//            j--;
-//        }
-//        return true;
-//	}
-//	static String updation(boolean checkReverse , String str1) {
-//		if(checkReverse) {
-//			StringBuilder sb = new StringBuilder();
-//			str1.toLowerCase();
-//			for(int i=str1.length();i>=0;i--) {
-//				if(str1.charAt(i)=='a' ||str1.charAt(i)=='e' || str1.charAt(i)=='i' || str1.charAt(i)=='o' || str1.charAt(i)=='u' ) {
-//					
-//				}
-//				sb.append(str1.charAt(i));
-//			}
-//			
-//		}
-//	}
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter the First Word");
-//		String str1 = sc.nextLine();
-//		System.out.println("Enter the Second Word");
-//		String str2 = sc.nextLine();
-//		
-//	}
-//}
+import java.util.*;
+
+public class Main {
+    static boolean isVowel(char c){
+        c=Character.toUpperCase(c);
+        return c=='A'||c=='E'||c=='I'||c=='O'||c=='U';
+    }
+    static boolean invalid(String s){
+        return s.trim().contains(" ");
+    }
+    static String firstTwoUnique(String s,boolean wantVowel){
+        LinkedHashSet<Character> set=new LinkedHashSet<>();
+        for(int i=0;i<s.length()&&set.size()<2;i++){
+            char c=s.charAt(i);
+            if(Character.isLetter(c)){
+                if(isVowel(c)==wantVowel)set.add(c);
+            }
+        }
+        StringBuilder sb=new StringBuilder();
+        for(char c:set)sb.append(c);
+        return sb.toString();
+    }
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first word");
+        String w1=sc.nextLine();
+        if(invalid(w1)){
+            System.out.println(w1+" is an invalid word");
+            return;
+        }
+        System.out.println("Enter the second word");
+        String w2=sc.nextLine();
+        if(invalid(w2)){
+            System.out.println(w2+" is an invalid word");
+            return;
+        }
+        String r1=new StringBuilder(w1).reverse().toString();
+        if(r1.equalsIgnoreCase(w2)){
+            String t=r1.toLowerCase();
+            StringBuilder out=new StringBuilder();
+            for(int i=0;i<t.length();i++){
+                char c=t.charAt(i);
+                if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')out.append('@');
+                else out.append(c);
+            }
+            System.out.print(out.toString());
+        }else{
+            String comb=(w1+w2).toUpperCase();
+            int v=0,con=0;
+            for(int i=0;i<comb.length();i++){
+                char c=comb.charAt(i);
+                if(Character.isLetter(c)){
+                    if(isVowel(c))v++;
+                    else con++;
+                }
+            }
+            if(v>con)System.out.print(firstTwoUnique(comb,true));
+            else if(con>v)System.out.print(firstTwoUnique(comb,false));
+            else System.out.print("Vowels and consonants are equal");
+        }
+    }
+}
